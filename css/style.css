@@ -201,3 +201,41 @@ body {
   border-radius: 5px;
   background: #252b42;
 }
+
+
+.page {
+  margin-top: 60px;
+  flex: 1 0 auto;
+}
+
+.introduction {
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
+.introduction__container {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  margin-top: 35px;
+}
+
+.introduction__body {
+  padding: 15px;
+}
+
+.introduction__body-title {
+  text-align: center;
+  font-size: 34px;
+  line-height: calc(80/58 * 100%);
+  font-weight: 800;
+  letter-spacing: 0.2px;
+}
+
+.introduction__body-text {
+  margin-top: 10px;
+  text-align: center;
+  color: #737373;
+  font-size: 16px;
+  line-height: 150%;
+}
